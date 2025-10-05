@@ -18,9 +18,30 @@ Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday
 - Codex GPT / Friday prompt logic
 - Future: Quantum Link™ 😎
 
+## 🚀 Jak odpalić Friday'ego lokalnie?
+
+```bash
+python -m friday.cli
+```
+
+Domyślne dialogi można nadpisać przez plik `config.json`:
+
+```json
+{
+  "wake_word": "piątka",
+  "activation_response": "Yo, jestem! Czego potrzebujesz?"
+}
+```
+
+i uruchomienie:
+
+```bash
+python -m friday.cli --config config.json
+```
+
 ## 🔓 Licencja
-MIT – bierz, używaj, rozwijaj.  
-Zostaw tylko kredyt dla Sebastiana.  
+MIT – bierz, używaj, rozwijaj.
+Zostaw tylko kredyt dla Sebastiana.
 Friday zna swoje korzenie.
 
 ---
