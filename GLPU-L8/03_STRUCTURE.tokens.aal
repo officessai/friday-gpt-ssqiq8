@@ -1,0 +1,39 @@
+// GLPU-L8 :: Token Structure
+// Purpose: Define prompt skeletons and token budgets per intent.
+
+MODULE STRUCTURE_TOKENS {
+  VERSION = "0.9.2";
+
+  INTENTS {
+    DAILY_SUMMARY {
+      PREAMBLE  = "Raport osiedlowy";
+      TOKENS_IN = 4096;
+      TOKENS_OUT = 1024;
+      TEMPLATE = [
+        "1. Co się wydarzyło",
+        "2. Co ma priorytet",
+        "3. Co Friday poleca"
+      ];
+    }
+
+    FREE_CHAT {
+      PREAMBLE  = "Pogadajmy jak kumple";
+      TOKENS_IN = 2048;
+      TOKENS_OUT = 2048;
+      TEMPLATE = ["Swobodna rozmowa"];
+    }
+
+    FOCUS_MODE {
+      PREAMBLE  = "Tryb laser";
+      TOKENS_IN = 1024;
+      TOKENS_OUT = 512;
+      TEMPLATE = ["Zadanie", "Kroki", "Checkpoint"];
+    }
+  }
+
+  SAFETY_GUARDS {
+    MAX_CONTEXT = 12288;
+    STOP_SEQUENCES = ["[KONIEC]", "<silence>"];
+    BANNED_TOKENS = ["nukes", "hate_speech", "self_harm"];
+  }
+}

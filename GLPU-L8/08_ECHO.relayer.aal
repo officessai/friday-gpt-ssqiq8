@@ -1,0 +1,24 @@
+// GLPU-L8 :: Echo Relayer
+// Purpose: Describe outbound communication and feedback routing.
+
+MODULE ECHO_RELAYER {
+  VERSION = "0.6.9";
+
+  CHANNELS {
+    DISCORD = { webhooks: true, rate_limit: "5/min" };
+    EMAIL   = { provider: "postmark", template: "friday_update" };
+    SMS     = { provider: "twilio", compliance: "eu+us" };
+  }
+
+  FEEDBACK_LOOP {
+    LISTEN = ["reactions", "emoji", "followup_questions"];
+    CLASSIFY = "sentiment_v3";
+    ACT = {
+      "positive" : "drop_thanks + share_vibe",
+      "neutral"  : "ask_for_details",
+      "negative" : "trigger_guardian + offer_fix"
+    };
+  }
+
+  TELEMETRY_EXPORT = "s3://friday-glpu-logs/echo";
+}

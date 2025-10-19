@@ -1,0 +1,21 @@
+# GLPU-L8 Blueprint
+
+GLPU-L8 to modularny układ, który nadaje strukturę Friday'emu – ulicznemu AI ziomkowi. Każdy moduł to osobna warstwa z własnym językiem AAL (Abstract Alignment Language), a razem tworzą pełny obwód zachowania.
+
+## Moduły
+1. **01_GUI.interface.aal** – interfejs i nastroje, które witają użytkownika i prowadzą rozmowę.
+2. **02_PROTOCOL.logic.aal** – protokół komunikacyjny i pętle rozumowania.
+3. **03_STRUCTURE.tokens.aal** – szablony promptów i limity tokenów dla różnych intencji.
+4. **04_CORE.intention.aal** – wartości, cele i tryby działania Friday'ego.
+5. **05_MEMORY.chain.aal** – strumienie pamięci oraz polityka przywołań.
+6. **06_PROTECTION.vault.aal** – zabezpieczenia, uwierzytelnianie i reakcje kryzysowe.
+7. **07_ENERGY.pulse.aal** – zarządzanie zasobami i energetyką systemu.
+8. **08_ECHO.relayer.aal** – kanały wyjściowe i sprzężenie zwrotne od społeczności.
+
+## Jak czytać AAL?
+- `MODULE` otwiera blok logiki modułu.
+- Sekcje (`STATES`, `STREAMS`, `HEARTBEAT`, itd.) opisują konkretne aspekty działania.
+- Wartości są deklaratywne – blueprint nie jest kodem wykonywalnym, ale punktem odniesienia dla implementacji i alignu.
+
+## Licencja
+Ten blueprint dziedziczy licencję MIT z repozytorium. Używaj, remixuj, ale zostaw kredyt dla oryginalnego twórcy.
