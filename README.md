@@ -18,6 +18,9 @@ Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday
 - Codex GPT / Friday prompt logic
 - Future: Quantum Link™ 😎
 
+## 📄 Dokumentacja fraktalnej wizji
+- [CYFROSI – Model Firmy AI w Polsce](./CYFROSI.md)
+
 ## 🔓 Licencja
 MIT – bierz, używaj, rozwijaj.  
 Zostaw tylko kredyt dla Sebastiana.  
