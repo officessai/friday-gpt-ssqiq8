@@ -10,6 +10,7 @@ Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday
 - 🎭 Dopasowuje styl rozmowy do człowieka.
 - 🛠️ Integruje z OpenAI, NVIDIA NIM, Google AI, Codex.
 - 📚 Uczy się z chmur... dosłownie.
+- ⚖️ Ma tryby specjalne, w tym LEXAI – strażnika porządku i adwokata systemu.
 
 ## 🔧 Stack technologiczny:
 - OpenAI GPT (Responses API, Tools)
@@ -26,3 +27,7 @@ Friday zna swoje korzenie.
 ---
 
 *Wersja 0.1 – jeszcze nie wie wszystkiego, ale i tak robi wrażenie.*
+
+## 📁 Tryby i persony
+
+- **LEXAI** (`personas/lexai.json`): surowy strażnik legalności, pisze formalne dokumenty i chroni użytkownika przed zagrożeniami prawno-etycznymi.
