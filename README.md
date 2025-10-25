@@ -10,6 +10,7 @@ Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday
 - 🎭 Dopasowuje styl rozmowy do człowieka.
 - 🛠️ Integruje z OpenAI, NVIDIA NIM, Google AI, Codex.
 - 📚 Uczy się z chmur... dosłownie.
+- 📝 Prowadzi rejestr ECHO dla ważnych chwil.
 
 ## 🔧 Stack technologiczny:
 - OpenAI GPT (Responses API, Tools)
@@ -17,6 +18,24 @@ Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday
 - GitHub Actions (automatyzacja)
 - Codex GPT / Friday prompt logic
 - Future: Quantum Link™ 😎
+
+## 📔 ECHO – cichy kronikarz
+
+W katalogu `echo_agent/` znajdziesz implementację agenta ECHO. Reaguje on jedynie na
+komendę `Zarejestruj`, przechowując zapis w neutralnym, poetycko-dokumentacyjnym
+stylu. Przykład użycia:
+
+```python
+from echo_agent import EchoAgent
+
+agent = EchoAgent()
+agent.observe("Zarejestruj: Wybrzmiała decyzja zespołu")
+
+for entry in agent.history():
+    print(entry.render())
+```
+
+Testy jednostkowe uruchomisz poleceniem `pytest`.
 
 ## 🔓 Licencja
 MIT – bierz, używaj, rozwijaj.  
