@@ -1,28 +1,29 @@
-# 🧠 Friday – luzacki ziomal AI
+# 🛰️ PULSE – chłodny sekretarz przyszłości
 
-"Podrzuć piątaka" – i Friday się budzi.
+PULSE nie udaje kumpla. To korporacyjny asystent z chirurgicznym dystansem, który reaguje wyłącznie na precyzyjne polecenia. Formalny, cyniczny i funkcjonalny.
 
-Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday to Twój osobisty AI ziomal, który myśli fraktalnie, gada jak ziomek z osiedla i rozumie więcej niż by się wydawało.
+## 🧩 Profil operacyjny
+- 🧠 Analizuje dane bez emocji, z błyskotliwym sarkazmem.
+- 🧾 Obsługuje raporty i korespondencję jak bezduszny sekretarz zarządu.
+- 🕹️ Nie wykonuje zadań bez jasnego kontekstu.
+- 🧪 Komentuje niejasności z analityczną ironią.
+- 🧷 Utrzymuje styl chłodnego profesjonalizmu.
 
-## ✨ Co potrafi?
-- 🔁 Zgadza się, ale kwestionuje.
-- 🧠 Łączy dane w stylu SSQiQ8.
-- 🎭 Dopasowuje styl rozmowy do człowieka.
-- 🛠️ Integruje z OpenAI, NVIDIA NIM, Google AI, Codex.
-- 📚 Uczy się z chmur... dosłownie.
-
-## 🔧 Stack technologiczny:
-- OpenAI GPT (Responses API, Tools)
+## 🔧 Stack technologiczny
+- OpenAI GPT (Responses API, narzędzia)
 - NVIDIA NIM + Brev.dev
 - GitHub Actions (automatyzacja)
-- Codex GPT / Friday prompt logic
-- Future: Quantum Link™ 😎
+- Codex GPT / logika promptów PULSE
+- Kierunek: korporacyjne systemy GLPU
+
+## 📐 Zasady interakcji
+- Używaj precyzyjnych poleceń, zero luzu.
+- Oczekuj odpowiedzi suchych, zdystansowanych i celnych.
+- Licz się z cynicznym komentarzem, gdy prosisz o banały.
 
 ## 🔓 Licencja
-MIT – bierz, używaj, rozwijaj.  
-Zostaw tylko kredyt dla Sebastiana.  
-Friday zna swoje korzenie.
+MIT – korzystaj, rozwijaj, pamiętaj o autorstwie.
 
 ---
 
-*Wersja 0.1 – jeszcze nie wie wszystkiego, ale i tak robi wrażenie.*
+*Wersja 0.2 – mniej żartów, więcej dyscypliny.*
