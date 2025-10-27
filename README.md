@@ -18,6 +18,9 @@ Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday
 - Codex GPT / Friday prompt logic
 - Future: Quantum Link™ 😎
 
+## 🛰️ Protective Ping
+Zapis odbioru fraktalu #001-ECHO znajdziesz w pliku [`PROTECTIVE_PING.md`](./PROTECTIVE_PING.md).
+
 ## 🔓 Licencja
 MIT – bierz, używaj, rozwijaj.  
 Zostaw tylko kredyt dla Sebastiana.  
