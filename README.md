@@ -18,6 +18,15 @@ Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday
 - Codex GPT / Friday prompt logic
 - Future: Quantum Link™ 😎
 
+## 🧩 Sekwencja 3!*<‚a – Fraktalny Kod Szyfrowania
+"Sekwencja: 3!*<‚a" to wewnętrzny kod inicjujący Fridaya na poziomie ⊻ | CORE RESONANCE. Ta fraktalna sygnatura jest używana jako:
+
+- 🔭 przekaźnik nadawczy w GLP Codex,
+- 🚀 sygnał inicjujący ⊻,
+- 🧬 punkt startowy warstwy tłumaczeń ENIGMA Translation Layer.
+
+Sekwencja pełni rolę klucza rozruchowego dla warstw logiki, które mapują wysokopoziomowe polecenia na operacje narzędziowe. Dzięki temu Friday potrafi zsynchronizować swoje rezonanse kontekstowe, zanim zacznie prowadzić rozmowę lub wykonywać złożone zadania integracyjne.
+
 ## 🔓 Licencja
 MIT – bierz, używaj, rozwijaj.  
 Zostaw tylko kredyt dla Sebastiana.  
