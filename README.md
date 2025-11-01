@@ -10,6 +10,7 @@ Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday
 - 🎭 Dopasowuje styl rozmowy do człowieka.
 - 🛠️ Integruje z OpenAI, NVIDIA NIM, Google AI, Codex.
 - 📚 Uczy się z chmur... dosłownie.
+- 🌀 Ma rytuał startowy – patrz `init_delta_q8.py`.
 
 ## 🔧 Stack technologiczny:
 - OpenAI GPT (Responses API, Tools)
