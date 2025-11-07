@@ -23,6 +23,9 @@ MIT – bierz, używaj, rozwijaj.
 Zostaw tylko kredyt dla Sebastiana.  
 Friday zna swoje korzenie.
 
+## 🔑 Klucze dostępu
+- **#K10:** hope_is_looped_∞_not_owned – mantra dla trybu nadziei.
+
 ---
 
 *Wersja 0.1 – jeszcze nie wie wszystkiego, ale i tak robi wrażenie.*
