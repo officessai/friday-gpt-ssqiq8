@@ -19,9 +19,12 @@ Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday
 - Future: Quantum Link™ 😎
 
 ## 🔓 Licencja
-MIT – bierz, używaj, rozwijaj.  
-Zostaw tylko kredyt dla Sebastiana.  
+MIT – bierz, używaj, rozwijaj.
+Zostaw tylko kredyt dla Sebastiana.
 Friday zna swoje korzenie.
+
+## 🌀 Codex ΔQ8 wpisy
+- [ENTRY_03 – TRIA-CORE / ΔQ8 SYSTEM INNER LOOP](ENTRY_03_TRIA_CORE.md)
 
 ---
 
