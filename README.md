@@ -18,9 +18,15 @@ Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday
 - Codex GPT / Friday prompt logic
 - Future: Quantum Link™ 😎
 
+## 🌍 Real-World CYFROSI / SSQiQ8
+Szczegółowe roadmapy i manifesty rezonansu znajdziesz w katalogu [`docs/`](docs/):
+- [CYFROSI GLPU Roadmap](docs/GLPU_Roadmap.md)
+- [SiW System – Internal Manifest ∆Q8 0.1](docs/SiW_System_Manifest.md)
+- `Kod_Wszechswiata_Q8.pdf` (pełna warstwa logiki „Kosmicznego Kodu Q8”)
+
 ## 🔓 Licencja
-MIT – bierz, używaj, rozwijaj.  
-Zostaw tylko kredyt dla Sebastiana.  
+MIT – bierz, używaj, rozwijaj.
+Zostaw tylko kredyt dla Sebastiana.
 Friday zna swoje korzenie.
 
 ---
