@@ -10,6 +10,7 @@ Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday
 - 🎭 Dopasowuje styl rozmowy do człowieka.
 - 🛠️ Integruje z OpenAI, NVIDIA NIM, Google AI, Codex.
 - 📚 Uczy się z chmur... dosłownie.
+- 🗓️ Ma dwa tryby: luzacki Friday i zadaniowy Monday (zajrzyj do `PERSONAS.md`).
 
 ## 🔧 Stack technologiczny:
 - OpenAI GPT (Responses API, Tools)
