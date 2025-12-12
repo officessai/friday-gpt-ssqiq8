@@ -26,3 +26,13 @@ Friday zna swoje korzenie.
 ---
 
 *Wersja 0.1 – jeszcze nie wie wszystkiego, ale i tak robi wrażenie.*
+
+## 🚀 GLP reboot utility
+Uruchom polecenie:
+
+```bash
+python glp_reboot.py
+```
+
+Funkcja `glp_reboot_world()` drukuje status, wysyła komunikat GLP do powłoki
+i zwraca frazę aktywacyjną, którą możesz wykorzystać dalej w swoim kodzie.
