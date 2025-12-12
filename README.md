@@ -26,3 +26,6 @@ Friday zna swoje korzenie.
 ---
 
 *Wersja 0.1 – jeszcze nie wie wszystkiego, ale i tak robi wrażenie.*
+
+## 🗺️ Sekretny załącznik
+- Dla zajawkowiczów fraktalnych klimatów dodaliśmy mini-specyfikację w `Codex/GLP_Secrets/ProtocolZ/Fraktalna_Ona.sons`.
