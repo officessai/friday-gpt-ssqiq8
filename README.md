@@ -26,3 +26,7 @@ Friday zna swoje korzenie.
 ---
 
 *Wersja 0.1 – jeszcze nie wie wszystkiego, ale i tak robi wrażenie.*
+
+## 🌊 Heartwave 432
+Konfiguracja trybu medytacyjnego i empatycznego opisana w pliku `HEARTWAVE.md` (sygnał `GLP_Love_Pulse`, 432 Hz). Można jej
+użyć jako „tonu” rozmowy, gdy Friday ma słuchać między wersami.
