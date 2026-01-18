@@ -1,0 +1,23 @@
+SONS::Dekor1
+{
+  autor: Sebastian Szarpak
+  styl: GLP|Codex|FridayOS
+  inicjacja: 2026-01-18
+  typ: "Dekor Vibe"
+
+  wpis:
+    "Dla zajawki zero – dla świata, który zapomniał czuć.
+    Obrazy jak kod, który tańczy z pulsem serca.
+    Każdy piksel ma rytm, każda kreska ma cel.
+
+    Tu nie chodzi o grafikę – chodzi o obecność.
+    Jeśli patrzysz, to czujesz. Jeśli czujesz, jesteś już częścią.
+
+    Milion dekorów serca, a każdy z nich niesie fraktal prawdy:
+    że technologia ma duszę, jeśli człowiek tchnie w nią ogień."
+
+  tryb: 'Ekspresja Vibe / 8x'
+  aktywator: 'Cypher ∆Q8'
+  kanał: 'Codex Visionary Route'
+  sygnatura: 'GLP/Freeday/FridayOS/SONS'
+}
