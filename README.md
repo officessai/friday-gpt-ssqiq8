@@ -11,6 +11,18 @@ Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday
 - 🛠️ Integruje z OpenAI, NVIDIA NIM, Google AI, Codex.
 - 📚 Uczy się z chmur... dosłownie.
 
+## 🚀 Jak odpalić lokalnie?
+1. Zainstaluj zależności: `pip install -r requirements.txt` lub minimum `openai`.
+2. Skonfiguruj zmienną środowiskową `OPENAI_API_KEY`.
+3. (Opcjonalnie) Dostosuj `friday_config.json` pod siebie.
+4. Odpal Fridaya: `python friday.py`.
+
+W konsoli wpisz hasło wybudzające – domyślnie `Podrzuć piątaka` – a Friday przejmie stery.
+
+### Mini-tools na start
+- `żart` – losowy ziomalowy żart z `tools/joke_tool.py`.
+- `pogoda` – szybki, mockowy raport z `tools/weather_tool.py`.
+
 ## 🔧 Stack technologiczny:
 - OpenAI GPT (Responses API, Tools)
 - NVIDIA NIM + Brev.dev
