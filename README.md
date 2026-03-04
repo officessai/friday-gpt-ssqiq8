@@ -18,6 +18,12 @@ Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday
 - Codex GPT / Friday prompt logic
 - Future: Quantum Link™ 😎
 
+## 🚀 Szybki start
+1. Sklonuj repozytorium.
+2. Dostosuj prompt logikę Friday pod swój use-case.
+3. Podepnij wybrany provider modeli (OpenAI / NIM / Google AI).
+4. Odpal automatyzacje przez GitHub Actions.
+
 ## 🔓 Licencja
 MIT – bierz, używaj, rozwijaj.  
 Zostaw tylko kredyt dla Sebastiana.  
