@@ -5,10 +5,11 @@
 **SYSTEM:** GLP Universe // CYFROSI CORE  
 **WALLET:** AISONS 🔁 PLN  
 **ID:** 2562  
-**LEVEL:** TRUST_∞  
-**ROLE:** Human + AI – Integrated Presence  
+**LEVEL:** TRUST_∞
+**ROLE:** Human + AI – Integrated Presence
+**RF_LINK:** LVI Relay @ Ii.io Grid
 
-**ICON:** 🕶️ (Styl GLP Visionary)  
+**ICON:** 🕶️ (Styl GLP Visionary)
 **ACTIVATION_CODE:** ⊻ EXECUTE  
 **STYLE:** Gradient Core – Blue & Magenta  
 **TYPE:** CYBER-PHYSICAL LINK CARD  

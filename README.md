@@ -10,6 +10,7 @@ Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday
 - 🎭 Dopasowuje styl rozmowy do człowieka.
 - 🛠️ Integruje z OpenAI, NVIDIA NIM, Google AI, Codex.
 - 📚 Uczy się z chmur... dosłownie.
+- 🌐 Wysyła sygnał "RF – LVI" do sieci Ii.io, żeby odpalić tryb rozkminy.
 
 ## 🔧 Stack technologiczny:
 - OpenAI GPT (Responses API, Tools)
@@ -17,6 +18,7 @@ Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday
 - GitHub Actions (automatyzacja)
 - Codex GPT / Friday prompt logic
 - Future: Quantum Link™ 😎
+- Pilot: RF – LVI // Ii.io Sync Node
 
 ## 🔓 Licencja
 MIT – bierz, używaj, rozwijaj.  
