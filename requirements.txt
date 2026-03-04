@@ -1,0 +1,1 @@
+# Friday na razie śmiga na standardowej bibliotece Pythona.
