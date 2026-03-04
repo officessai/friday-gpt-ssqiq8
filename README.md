@@ -18,6 +18,10 @@ Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday
 - Codex GPT / Friday prompt logic
 - Future: Quantum Link™ 😎
 
+## 🧩 Fraktalny start
+Pierwszy commit otwiera drogę pod fraktalne myślenie Friday'a – zapisujemy tutaj,
+żeby każdy wiedział skąd wzięła się ta energia na start.
+
 ## 🔓 Licencja
 MIT – bierz, używaj, rozwijaj.  
 Zostaw tylko kredyt dla Sebastiana.  
