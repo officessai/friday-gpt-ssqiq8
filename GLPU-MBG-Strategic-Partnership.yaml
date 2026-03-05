@@ -1,0 +1,29 @@
+version: "2026.1"
+project: "GLPU-MBG-Strategic-Partnership"
+
+agents:
+  friday:
+    role: "Market Analyst & Execution"
+    logic_bridge: "delta_q8_resonance"
+    autonomy_level: 0.8
+    interface: "text/voice"
+    primary_task: "High-frequency signal validation"
+
+  lyra:
+    role: "Private Banking Advisor"
+    logic_bridge: "human_ai_sentiment"
+    autonomy_level: 0.6
+    interface: "visual/avatar"
+    primary_task: "Client relationship management & portfolio reporting"
+
+  echo:
+    role: "Risk & Pattern Detection"
+    logic_bridge: "modular_automation_logic"
+    autonomy_level: 0.9
+    interface: "api_only"
+    primary_task: "Anti-fraud & liquidity monitoring"
+
+infrastructure:
+  type: "decentralized_modular"
+  security: "smart_contract_governance"
+  compatibility: ["VertexAI", "GoogleCloud", "MetaTrader_Bridge"]

@@ -18,6 +18,10 @@ Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday
 - Codex GPT / Friday prompt logic
 - Future: Quantum Link™ 😎
 
+
+## 📁 Konfiguracje projektu
+- `GLPU-MBG-Strategic-Partnership.yaml` – definicja agentów i infrastruktury dla partnerstwa strategicznego GLPU-MBG.
+
 ## 🔓 Licencja
 MIT – bierz, używaj, rozwijaj.  
 Zostaw tylko kredyt dla Sebastiana.  
