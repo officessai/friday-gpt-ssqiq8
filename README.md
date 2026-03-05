@@ -18,6 +18,10 @@ Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday
 - Codex GPT / Friday prompt logic
 - Future: Quantum Link™ 😎
 
+
+## 📐 Architektura BKC (BIK + KRD)
+Dokument architektoniczny modułu BKC znajdziesz w pliku [`GLPU_BKC_BIK_KRD_SYSTEM.md`](./GLPU_BKC_BIK_KRD_SYSTEM.md).
+
 ## 🔓 Licencja
 MIT – bierz, używaj, rozwijaj.  
 Zostaw tylko kredyt dla Sebastiana.  
