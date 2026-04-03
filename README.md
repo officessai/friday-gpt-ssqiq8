@@ -1,28 +1,21 @@
-# 🧠 Friday – luzacki ziomal AI
+# HuAI Framework v1
 
-"Podrzuć piątaka" – i Friday się budzi.
+Production-quality starter framework for **Human-Aware Intelligence (HuAI)** in Python.
 
-Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday to Twój osobisty AI ziomal, który myśli fraktalnie, gada jak ziomek z osiedla i rozumie więcej niż by się wydawało.
+## What is included
+- Core classes and typed contracts (`huai/core.py`)
+- Explicit orchestration flow (`huai/flow.py`, `huai/orchestrator.py`)
+- Human-centered RSI semantics (Respect, Safety, Intent)
+- Readable terminal trace output (`huai/terminal.py`)
+- Future-ready expansion points (Analyzer / Planner / Executor protocols + hooks)
 
-## ✨ Co potrafi?
-- 🔁 Zgadza się, ale kwestionuje.
-- 🧠 Łączy dane w stylu SSQiQ8.
-- 🎭 Dopasowuje styl rozmowy do człowieka.
-- 🛠️ Integruje z OpenAI, NVIDIA NIM, Google AI, Codex.
-- 📚 Uczy się z chmur... dosłownie.
+## Quick start
+```bash
+python3 examples/run_v1.py
+```
 
-## 🔧 Stack technologiczny:
-- OpenAI GPT (Responses API, Tools)
-- NVIDIA NIM + Brev.dev
-- GitHub Actions (automatyzacja)
-- Codex GPT / Friday prompt logic
-- Future: Quantum Link™ 😎
-
-## 🔓 Licencja
-MIT – bierz, używaj, rozwijaj.  
-Zostaw tylko kredyt dla Sebastiana.  
-Friday zna swoje korzenie.
-
----
-
-*Wersja 0.1 – jeszcze nie wie wszystkiego, ale i tak robi wrażenie.*
+## Design goals
+1. **Explainability first** — every phase is explicit and traceable.
+2. **Safety-aware by default** — RSI analysis runs before planning and execution.
+3. **Easy to extend** — swap components without breaking the orchestrator API.
+4. **Deployable everywhere** — dependency-free standard library implementation.
