@@ -1,0 +1,14 @@
+Design System Brief
+
+Fonty:
+- Syne
+- DM Mono
+- Cormorant
+
+Kolory:
+- Teal (akcent)
+- Ciemny szary (tło i neutralne powierzchnie)
+
+Estetyka:
+- Dark premium
+- Minimalizm z mocnym kontrastem typograficznym

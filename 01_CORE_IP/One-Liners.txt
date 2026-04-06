@@ -1,0 +1,12 @@
+HuAI — One-Liners
+
+PL:
+- HuAI to system wzmacniania ludzkiej sprawczości.
+- Nie automatyzujemy ludzi. Automatyzujemy chaos.
+
+EN:
+- HuAI is a system for amplifying human agency.
+- We do not automate people. We automate chaos.
+
+X/Twitter:
+- HuAI = intelligence that scales human decisions, not replaces humans.
