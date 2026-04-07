@@ -1,28 +1,57 @@
-# 🧠 Friday – luzacki ziomal AI
+# Friday API
 
-"Podrzuć piątaka" – i Friday się budzi.
+Friday is now organized as a deployable, testable FastAPI service with clearer boundaries between API routes, schemas, business logic, and runtime configuration.
 
-Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday to Twój osobisty AI ziomal, który myśli fraktalnie, gada jak ziomek z osiedla i rozumie więcej niż by się wydawało.
+## Project structure
 
-## ✨ Co potrafi?
-- 🔁 Zgadza się, ale kwestionuje.
-- 🧠 Łączy dane w stylu SSQiQ8.
-- 🎭 Dopasowuje styl rozmowy do człowieka.
-- 🛠️ Integruje z OpenAI, NVIDIA NIM, Google AI, Codex.
-- 📚 Uczy się z chmur... dosłownie.
+```
+.
+├── src/friday_app
+│   ├── api
+│   │   ├── routes
+│   │   │   ├── chat.py
+│   │   │   └── health.py
+│   │   └── router.py
+│   ├── core
+│   │   └── settings.py
+│   ├── schemas
+│   │   └── chat.py
+│   ├── services
+│   │   └── chat_service.py
+│   ├── app.py
+│   └── main.py
+├── tests
+├── Dockerfile
+├── .github/workflows/ci.yml
+└── requirements.txt
+```
 
-## 🔧 Stack technologiczny:
-- OpenAI GPT (Responses API, Tools)
-- NVIDIA NIM + Brev.dev
-- GitHub Actions (automatyzacja)
-- Codex GPT / Friday prompt logic
-- Future: Quantum Link™ 😎
+## Quick start
 
-## 🔓 Licencja
-MIT – bierz, używaj, rozwijaj.  
-Zostaw tylko kredyt dla Sebastiana.  
-Friday zna swoje korzenie.
+1. Create and activate a virtual environment.
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Configure environment variables:
+   ```bash
+   cp .env.example .env
+   ```
+4. Run locally:
+   ```bash
+   PYTHONPATH=src uvicorn friday_app.main:app --reload
+   ```
 
----
+## Deployment
 
-*Wersja 0.1 – jeszcze nie wie wszystkiego, ale i tak robi wrażenie.*
+Build and run with Docker:
+
+```bash
+docker build -t friday-api .
+docker run --rm -p 8000:8000 --env-file .env friday-api
+```
+
+## Endpoints
+
+- `GET /api/v1/health`
+- `POST /api/v1/chat`
