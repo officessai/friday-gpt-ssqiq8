@@ -1,0 +1,18 @@
+{
+  "name": "friday",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Friday app monorepo",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace apps/web",
+    "build": "npm run build --workspace apps/web",
+    "lint": "npm run lint --workspace apps/web",
+    "preview": "npm run preview --workspace apps/web"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

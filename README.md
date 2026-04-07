@@ -1,28 +1,41 @@
-# 🧠 Friday – luzacki ziomal AI
+# Friday
 
-"Podrzuć piątaka" – i Friday się budzi.
+Friday is now organized as a deployable web app with a clearer, scalable structure.
 
-Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday to Twój osobisty AI ziomal, który myśli fraktalnie, gada jak ziomek z osiedla i rozumie więcej niż by się wydawało.
+## Project structure
 
-## ✨ Co potrafi?
-- 🔁 Zgadza się, ale kwestionuje.
-- 🧠 Łączy dane w stylu SSQiQ8.
-- 🎭 Dopasowuje styl rozmowy do człowieka.
-- 🛠️ Integruje z OpenAI, NVIDIA NIM, Google AI, Codex.
-- 📚 Uczy się z chmur... dosłownie.
+```text
+.
+├── apps/
+│   └── web/                  # React + TypeScript app
+│       ├── src/
+│       │   ├── components/   # UI components split by responsibility
+│       │   ├── App.tsx
+│       │   └── main.tsx
+│       └── package.json
+├── .github/workflows/ci.yml  # Lint + build checks
+├── Dockerfile                # Production image (nginx)
+├── docker-compose.yml        # Local deployment wrapper
+└── package.json              # Workspace scripts
+```
 
-## 🔧 Stack technologiczny:
-- OpenAI GPT (Responses API, Tools)
-- NVIDIA NIM + Brev.dev
-- GitHub Actions (automatyzacja)
-- Codex GPT / Friday prompt logic
-- Future: Quantum Link™ 😎
+## Quick start
 
-## 🔓 Licencja
-MIT – bierz, używaj, rozwijaj.  
-Zostaw tylko kredyt dla Sebastiana.  
-Friday zna swoje korzenie.
+```bash
+npm install
+npm run dev
+```
 
----
+## Build for production
 
-*Wersja 0.1 – jeszcze nie wie wszystkiego, ale i tak robi wrażenie.*
+```bash
+npm run build
+```
+
+## Deploy with Docker
+
+```bash
+docker compose up --build
+```
+
+The app will be available at `http://localhost:8080`.
