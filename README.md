@@ -36,3 +36,8 @@ Friday zna swoje korzenie.
 ---
 
 *Wersja 0.1 – jeszcze nie wie wszystkiego, ale i tak robi wrażenie.*
+
+## 🎨 Szablony promptów graficznych
+1. Cyberpunkowe miasto nocą, styl anime, intensywne neony, perspektywa z dachu, format 16:9
+2. Fraktalny las, struktury geometryczne, mgła kwantowa, zielono-fioletowa paleta, ultra-detal
+3. Android samuraj w zbroi z płynnego szkła, światło reflektorów, styl cinematic, 4K
