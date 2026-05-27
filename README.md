@@ -11,6 +11,16 @@ Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday
 - 🛠️ Integruje z OpenAI, NVIDIA NIM, Google AI, Codex.
 - 📚 Uczy się z chmur... dosłownie.
 
+## 🧩 Persona gotowa do wgrania
+Konfiguracja Friday siedzi w pliku [`config/persona.json`](config/persona.json). To tam znajdziesz:
+
+- `name` – jak go wołasz.
+- `personality` – vibe, który niesie.
+- `instructions` – główne zasady rozmowy.
+- `wake_word` – magiczne hasło. Bez "Podrzuć piątaka" Friday tylko drzemi.
+
+Możesz tam mieszać, by ułożyć własnego ziomala. JSON jest prosty, ale jak coś – wal śmiało.
+
 ## 🔧 Stack technologiczny:
 - OpenAI GPT (Responses API, Tools)
 - NVIDIA NIM + Brev.dev
