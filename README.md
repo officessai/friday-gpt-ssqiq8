@@ -18,6 +18,16 @@ Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday
 - Codex GPT / Friday prompt logic
 - Future: Quantum Link™ 😎
 
+## 🔐 Security
+
+This is a public repository — do not commit secrets.
+
+- Never store API keys, tokens, service account files or credentials in the repo.
+- Do not use `VITE_*` variables for secrets. They are exposed to the browser bundle.
+- Backend-only secrets belong in `.env`, which must never be committed.
+- Use `.env.example` only as a reference for required variables.
+- Report vulnerabilities privately through GitHub Security Advisories.
+
 ## 🔓 Licencja
 MIT – bierz, używaj, rozwijaj.  
 Zostaw tylko kredyt dla Sebastiana.  
