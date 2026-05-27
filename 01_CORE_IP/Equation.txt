@@ -1,0 +1,12 @@
+HuAI Equation
+
+HuAI = RSI + AGI + ASI
+
+RSI — Realistic System Intelligence
+- Warstwa operacyjna i wdrożeniowa dla realnych procesów.
+
+AGI — Adaptive General Intelligence
+- Warstwa adaptacyjna do złożonych, zmiennych problemów.
+
+ASI — Augmented Strategic Intelligence
+- Warstwa strategiczna wspierająca decyzje o długim horyzoncie.
