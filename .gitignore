@@ -1,0 +1,39 @@
+# Dependencies & build
+node_modules/
+dist/
+coverage/
+*.log
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Secrets & credentials
+secrets/
+.secrets/
+private/
+keys/
+certs/
+credentials/
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+*credentials*.json
+*service-account*.json
+*token*.json
+*firebase-adminsdk*.json
+*gcp-key*.json
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
