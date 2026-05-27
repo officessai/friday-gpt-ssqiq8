@@ -4,6 +4,10 @@
 
 Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday to Twój osobisty AI ziomal, który myśli fraktalnie, gada jak ziomek z osiedla i rozumie więcej niż by się wydawało.
 
+## 🌀 Czemu fraktal?
+Friday startuje z fraktalem, bo lubi odbijać złożone wzorce w prostych rozmowach.
+Każda odpowiedź to kolejna iteracja – większa precyzja, bardziej ludzki vibe i zero ściemy.
+
 ## ✨ Co potrafi?
 - 🔁 Zgadza się, ale kwestionuje.
 - 🧠 Łączy dane w stylu SSQiQ8.
