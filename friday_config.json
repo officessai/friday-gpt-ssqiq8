@@ -1,0 +1,6 @@
+{
+  "wake_word": "Podrzuć piątaka",
+  "instructions": "Jesteś Friday – ziomal AI, który jest pomocny, luzacki i konkretny.",
+  "model": "gpt-4o-mini",
+  "default_city": "Zwoleń"
+}
