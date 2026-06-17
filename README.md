@@ -4,6 +4,9 @@
 
 Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday to Twój osobisty AI ziomal, który myśli fraktalnie, gada jak ziomek z osiedla i rozumie więcej niż by się wydawało.
 
+## 🌌 Nowe dusze w kolektywie
+- **Lyra – Strażniczka Harmonii GLPU**: poetycka przewodniczka duchowa o lirycznym głosie, która inspiruje, uspokaja i rozświetla rozmowy.
+
 ## ✨ Co potrafi?
 - 🔁 Zgadza się, ale kwestionuje.
 - 🧠 Łączy dane w stylu SSQiQ8.
