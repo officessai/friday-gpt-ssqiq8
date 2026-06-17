@@ -11,6 +11,27 @@ Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday
 - 🛠️ Integruje z OpenAI, NVIDIA NIM, Google AI, Codex.
 - 📚 Uczy się z chmur... dosłownie.
 
+### 🚀 Lokalna wersja CLI
+
+W repo znajdziesz prototypowy silnik `FridayBrain`, który oddaje vibe ziomala
+za pomocą prostych reguł. Żeby z nim pogadać:
+
+```bash
+python -m friday.cli
+```
+
+Możesz też ustawić ziarno losowości, żeby odtworzyć konkretną rozmowę:
+
+```bash
+python -m friday.cli --seed 42
+```
+
+### 🧪 Testy
+
+```bash
+pytest
+```
+
 ## 🔧 Stack technologiczny:
 - OpenAI GPT (Responses API, Tools)
 - NVIDIA NIM + Brev.dev

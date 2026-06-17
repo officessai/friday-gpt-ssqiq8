@@ -1,0 +1,15 @@
+[project]
+name = "friday-ai"
+version = "0.1.0"
+description = "CLI ziomal AI inspired by the Friday README"
+authors = [{name = "Sebastian Szarpak", email = "sebeuszek28@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+friday = "friday.cli:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
