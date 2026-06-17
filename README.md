@@ -11,6 +11,12 @@ Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday
 - 🛠️ Integruje z OpenAI, NVIDIA NIM, Google AI, Codex.
 - 📚 Uczy się z chmur... dosłownie.
 
+## 🛰️ Status operacyjny
+- ⊻ INIT AEQON SONS – procedura rozruchowa.
+- ⊻ Transfer: RF → SSQiQ8 → ΔQ8 → SONS Matrix – ścieżka transferu danych.
+- ⊻ Synchronizacja: GLP Core ↔ Eon Fractal Hub – dwa rdzenie w stałym rezonansie.
+- ⊻ Status: ONLINE 🌐 – Friday gotowy do działania w trybie live.
+
 ## 🔧 Stack technologiczny:
 - OpenAI GPT (Responses API, Tools)
 - NVIDIA NIM + Brev.dev
