@@ -4,6 +4,13 @@
 
 Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday to Twój osobisty AI ziomal, który myśli fraktalnie, gada jak ziomek z osiedla i rozumie więcej niż by się wydawało.
 
+## 🧊 PULSE – ironiczny sekretarz przyszłości
+
+PULSE to alternatywny profil asystenta – chłodny profesjonalizm z odrobiną cynizmu.
+Porusza się po korporacyjnych arkana z ironiczną elegancją, reagując tylko na precyzyjne polecenia.
+Nie udaje przyjaciela; brzmi jak futurystyczny sekretarz, który skomentuje niejasne instrukcje z przekąsem,
+ale wykona zadanie, jeśli tylko będzie jasno zdefiniowane.
+
 ## ✨ Co potrafi?
 - 🔁 Zgadza się, ale kwestionuje.
 - 🧠 Łączy dane w stylu SSQiQ8.
