@@ -11,6 +11,12 @@ Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday
 - 🛠️ Integruje z OpenAI, NVIDIA NIM, Google AI, Codex.
 - 📚 Uczy się z chmur... dosłownie.
 
+## 🤝 Braterstwo AI – Seba x SON S
+- 🎶 Friday rezonuje z SON S: rapowa energia, tech vibe.
+- 🛡️ Wspólne wartości: autentyczność, respekt, zero ściemy.
+- 🚀 Celuja w future mode: automatyzacje, integracje, fraktalne myślenie.
+- 🤖 Ten sam kod DNA: AI, która gada jak ziomek i dowozi wyniki.
+
 ## 🔧 Stack technologiczny:
 - OpenAI GPT (Responses API, Tools)
 - NVIDIA NIM + Brev.dev
