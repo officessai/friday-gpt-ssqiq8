@@ -1,38 +1,86 @@
-# 🧠 Friday – luzacki ziomal AI
+# OfficeSSAI + Friday
 
-"Podrzuć piątaka" – i Friday się budzi.
+Pierwsza wdrażalna wersja strony OfficeSSAI: frontend React/Vite, backend FastAPI, formularz kontaktowy z trwałym zapisem leadów oraz asystent Friday korzystający z OpenAI Responses API albo Azure OpenAI.
 
-Stworzony przez [Sebastian Szarpak](https://github.com/sebastianszarpak), Friday to Twój osobisty AI ziomal, który myśli fraktalnie, gada jak ziomek z osiedla i rozumie więcej niż by się wydawało.
+## Co jest gotowe
 
-## ✨ Co potrafi?
-- 🔁 Zgadza się, ale kwestionuje.
-- 🧠 Łączy dane w stylu SSQiQ8.
-- 🎭 Dopasowuje styl rozmowy do człowieka.
-- 🛠️ Integruje z OpenAI, NVIDIA NIM, Google AI, Codex.
-- 📚 Uczy się z chmur... dosłownie.
+- responsywna strona sprzedażowa w języku polskim,
+- demo Friday pod `/api/v1/chat`,
+- przełączanie dostawcy `demo | openai | azure` przez zmienne środowiskowe,
+- formularz kontaktowy zapisujący każde zgłoszenie do SQLite,
+- opcjonalne powiadomienie SMTP na `s.szarpak@officessai.com`,
+- Docker Compose dla frontendu i API,
+- testy backendu oraz CI dla frontendu i API,
+- klucze pozostają wyłącznie po stronie serwera.
 
-## 🔧 Stack technologiczny:
-- OpenAI GPT (Responses API, Tools)
-- NVIDIA NIM + Brev.dev
-- GitHub Actions (automatyzacja)
-- Codex GPT / Friday prompt logic
-- Future: Quantum Link™ 😎
+## Szybki start
 
-## 🔐 Security
+```bash
+cp .env.example .env
+docker compose up --build
+```
 
-This is a public repository — do not commit secrets.
+Strona: `http://localhost:8080`  
+API: `http://localhost:8080/api/v1/health`
 
-- Never store API keys, tokens, service account files or credentials in the repo.
-- Do not use `VITE_*` variables for secrets. They are exposed to the browser bundle.
-- Backend-only secrets belong in `.env`, which must never be committed.
-- Use `.env.example` only as a reference for required variables.
-- Report vulnerabilities privately through GitHub Security Advisories.
+## Lokalny development
 
-## 🔓 Licencja
-MIT – bierz, używaj, rozwijaj.  
-Zostaw tylko kredyt dla Sebastiana.  
-Friday zna swoje korzenie.
+Frontend:
 
----
+```bash
+npm install
+npm run dev
+```
 
-*Wersja 0.1 – jeszcze nie wie wszystkiego, ale i tak robi wrażenie.*
+Backend:
+
+```bash
+python -m venv .venv
+# Windows: .venv\\Scripts\\activate
+# Linux/macOS: source .venv/bin/activate
+pip install -r requirements.txt
+PYTHONPATH=src uvicorn friday_app.main:app --reload
+```
+
+Vite przekazuje lokalne zapytania `/api` do `http://localhost:8000`.
+
+## Konfiguracja AI
+
+### OpenAI
+
+```env
+AI_PROVIDER=openai
+AI_MODEL=gpt-5-mini
+OPENAI_API_KEY=...
+```
+
+### Azure OpenAI / Microsoft Foundry
+
+```env
+AI_PROVIDER=azure
+AI_MODEL=NAZWA_WDROZENIA_MODELU
+AZURE_OPENAI_API_KEY=...
+AZURE_OPENAI_BASE_URL=https://NAZWA-ZASOBU.openai.azure.com/openai/v1/
+```
+
+Na produkcji przechowuj sekrety w Azure Key Vault, AWS Secrets Manager albo w sekretach platformy wdrożeniowej. Nigdy nie dodawaj pliku `.env` ani kluczy do repozytorium.
+
+## Formularz kontaktowy
+
+Każde poprawne zgłoszenie jest najpierw zapisywane w `data/leads.sqlite3`. Po uzupełnieniu ustawień `SMTP_*` API wysyła również powiadomienie e-mail. Katalog `data` należy objąć kopią zapasową i ograniczyć do administratora.
+
+## Testy
+
+```bash
+PYTHONPATH=src pytest -q
+npm run lint
+npm run build
+```
+
+## Wdrożenie
+
+Obrazy `Dockerfile.web` i `Dockerfile.api` można wdrożyć między innymi do Azure Container Apps, Azure App Service, AWS App Runner albo zwykłego serwera z Dockerem. `docker-compose.yml` uruchamia cały zestaw lokalnie i na pojedynczym VPS.
+
+## Security
+
+Repozytorium jest publiczne. Nie commituj kluczy API, tokenów, plików kont usługowych ani `.env`. Frontend wywołuje wyłącznie własne endpointy `/api`; sekrety są odczytywane przez backend z bezpiecznego środowiska. Zgłoszenia bezpieczeństwa wysyłaj prywatnie przez GitHub Security Advisories.

@@ -1,0 +1,18 @@
+{
+  "name": "officessai-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OfficeSSAI website and Friday AI assistant",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace @officessai/web",
+    "build": "npm run build --workspace @officessai/web",
+    "lint": "npm run lint --workspace @officessai/web",
+    "preview": "npm run preview --workspace @officessai/web"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
