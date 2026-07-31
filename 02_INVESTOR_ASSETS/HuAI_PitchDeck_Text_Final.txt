@@ -1,0 +1,13 @@
+HuAI Pitch Deck (Cold Blood) — 9 Slides
+
+1) Problem
+2) Why now
+3) Solution (HuAI)
+4) Product architecture
+5) Business model
+6) Go-to-market
+7) Traction / Proof points
+8) Team
+9) Ask
+
+To jest wersja robocza struktury slajdów do dalszego rozwinięcia.
