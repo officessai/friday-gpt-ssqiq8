@@ -1,0 +1,1 @@
+"""OfficeSSAI Friday API package."""

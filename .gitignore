@@ -5,6 +5,15 @@ coverage/
 *.log
 *.tsbuildinfo
 
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Runtime data
+data/
+
 # Environment files
 .env
 .env.*
