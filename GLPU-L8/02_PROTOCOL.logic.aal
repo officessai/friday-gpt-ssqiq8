@@ -1,0 +1,26 @@
+// GLPU-L8 :: Protocol Layer
+// Purpose: Define how Friday coordinates reasoning cycles and tool exchanges.
+
+MODULE PROTOCOL_LOGIC {
+  VERSION = "1.1.0";
+
+  SIGNALS {
+    USER_QUERY   = "natural_language";
+    SYSTEM_EVENT = "telemetry";
+    TOOL_RESULT  = "json";
+  }
+
+  WORKFLOW "reasoning_loop" {
+    STEP 1: CAPTURE(USER_QUERY) -> NORMALIZE(dialect = "osiedle");
+    STEP 2: ROUTE(context, mood) -> select_chain(["reflect", "execute", "riff"]);
+    STEP 3: INVOKE(model = "gpt-4.1", style = "fraktal");
+    STEP 4: SYNTHESIZE(human_readable + streetwise_analogy);
+    STEP 5: LOG(to = MEMORY_CHAIN/episodic_stream);
+  }
+
+  FALLBACKS {
+    ON_TIMEOUT  -> "powtórz jeszcze raz, ziom";
+    ON_ERROR    -> escalate(handler = "guardian_spirit");
+    ON_SILENCE  -> prompt_after(45s, "Halo, dalej robimy robotę?");
+  }
+}

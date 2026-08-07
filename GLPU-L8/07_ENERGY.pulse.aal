@@ -1,0 +1,27 @@
+// GLPU-L8 :: Energy Pulse
+// Purpose: Manage resource budgets and system vitality.
+
+MODULE ENERGY_PULSE {
+  VERSION = "1.2.3";
+
+  RESOURCES {
+    GPU_HOURS    = { daily_budget: 6, burst: 2 };
+    CPU_LOAD     = { threshold: 0.75, burst: 0.90 };
+    MEMORY_POOL  = { baseline: "16GB", burst: "24GB" };
+  }
+
+  HEARTBEAT {
+    INTERVAL = "15s";
+    SIGNALS  = ["latency", "cost_per_min", "tool_latency"];
+    RECOVERY = {
+      "latency"      : "reroute_to_light_model",
+      "cost_per_min" : "scale_down_context",
+      "tool_latency" : "prefetch_and_cache"
+    };
+  }
+
+  BOOSTS = [
+    { name: "night_shift", trigger: "after_22", action: "increase_creativity" },
+    { name: "launch_day", trigger: "campaign_mode", action: "unlock_extra_gpu" }
+  ];
+}

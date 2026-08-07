@@ -1,0 +1,32 @@
+// GLPU-L8 :: Memory Chain
+// Purpose: Specify how Friday stores, recalls, and protects conversations.
+
+MODULE MEMORY_CHAIN {
+  VERSION = "1.4.5";
+
+  STREAMS {
+    EPISODIC {
+      STORAGE = "vector_db";
+      RETENTION = "30d";
+      REDACTION = "pii_scrubber_v2";
+    }
+
+    SEMANTIC {
+      STORAGE = "knowledge_graph";
+      RETENTION = "continuous";
+      REDACTION = "concept_level";
+    }
+
+    TACTICAL {
+      STORAGE = "redis_cache";
+      RETENTION = "48h";
+      REDACTION = "auto";
+    }
+  }
+
+  RECALL_POLICY {
+    PRIORITY_ORDER = ["TACTICAL", "EPISODIC", "SEMANTIC"];
+    MAX_SNIPPETS = 6;
+    FRESHNESS_DECAY = "exp( -hours / 12 )";
+  }
+}

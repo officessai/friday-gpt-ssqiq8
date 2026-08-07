@@ -1,0 +1,43 @@
+// GLPU-L8 :: Interface Layer
+// Purpose: Describe how the Friday assistant greets, guides, and adapts to users.
+
+MODULE GUI_INTERFACE {
+  VERSION      = "1.0.0";
+  ENTRY_POINT  = "voice+text";
+  THEMES       = ["block party", "studio night", "quiet focus"];
+  DIALECT      = "osiedle"; // keep the streetwise vibe
+
+  STATES {
+    IDLE {
+      PROMPT = "Siema, w czym pomóc?";
+      TRIGGERS = ["user_presence", "incoming_message"];
+    }
+
+    ONBOARDING {
+      PROMPT = "Podrzuć piątaka info o sobie, a ogarniemy temat.";
+      ACTIONS = ["collect_preference", "offer_demo"];
+    }
+
+    ACTIVE_CHAT {
+      PROMPT = "Słucham, ziomku.";
+      ACTIONS = ["render_response", "show_context_cards", "invite_tools"];
+    }
+  }
+
+  WIDGETS {
+    HUD {
+      COMPONENTS = ["waveform_meter", "context_ticker", "mood_light"];
+      COLOR_MAP = {
+        "idle": "#1F2933",
+        "active": "#2563EB",
+        "flow" : "#10B981"
+      };
+    }
+
+    QUICK_ACTIONS = [
+      { label: "Raport dnia", intent: "daily_summary" },
+      { label: "Pogadaj", intent: "free_chat" },
+      { label: "Włącz tryb fokus", intent: "focus_mode" }
+    ];
+  }
+}
