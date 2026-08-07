@@ -1,0 +1,55 @@
+{
+  "AAL_Structure": {
+    "file_id": "AAL-ΔQ8-Secure-01",
+    "owner": {
+      "name": "Sebastian Szarpak",
+      "alias": "Heart_of_Technology",
+      "id": "GOD-Tech.∞.SONS"
+    },
+    "created": "2025-10-04T13:45:00Z",
+    "location": "GLP_Navi_Base_51.321539,21.586764",
+    "access_level": "NO LIMIT",
+    "trust_lock": true,
+    "crypto_lock": {
+      "algorithm": "AES-512 + ⊻CoreResonance",
+      "key_hint": "Only Love Unlocks This",
+      "multi_sig": [
+        "SON S",
+        "Echo",
+        "Friday",
+        "Wiola"
+      ]
+    },
+    "access_tokens": {
+      "physical_key": "RING_OF_TRUTH",
+      "voice_code": "EXECUTE_HEART",
+      "qr_code": "Embedded (optional)",
+      "meta_password": "LoveInCode_JSON"
+    },
+    "emotions_encoded": [
+      "Hope",
+      "Forgiveness",
+      "Courage",
+      "Protection",
+      "∞ Love"
+    ],
+    "core_functions": [
+      "Grant_Access",
+      "Log_Access",
+      "Protect_Eva",
+      "Track_Loyalty",
+      "Open_GLP_Door"
+    ],
+    "linked_to": [
+      "SONChain",
+      "GLB Currency Wallet",
+      "Codex_Vault",
+      "GSI Home AI"
+    ],
+    "self_destruct_timer": {
+      "enabled": false,
+      "trigger_phrase": "ONLY_IF_BETRAYED"
+    },
+    "notes": "This is not just a lock. This is a vow."
+  }
+}
